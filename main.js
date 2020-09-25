@@ -9,4 +9,4 @@ app.get('/product', (req, res) => {
   });
 });
 
-app.listen(5000, () => console.log(`listening on port ${port}`));
+app.listen(port, () => console.log(`listening on port ${port}`));
